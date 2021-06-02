@@ -1,0 +1,18 @@
+{
+  "name": "localhost-proxy-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "socks-proxy": "node socksProxy.js",
+    "http-proxy": "node httpProxy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "socksv5": "0.0.6"
+  }
+}
+
